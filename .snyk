@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.10.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - nwb > karma-mocha-reporter > karma > log4js > mailgun-js > debug:
+        patched: '2017-12-27T07:47:25.698Z'
+  'npm:ms:20170412':
+    - nwb > karma-mocha-reporter > karma > log4js > mailgun-js > debug > ms:
+        patched: '2017-12-27T07:47:25.698Z'
