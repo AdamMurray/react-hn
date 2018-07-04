@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - eslint-config-jonnybuchanan > babel-eslint > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T07:48:24.373Z'
+    - eslint-config-jonnybuchanan > babel-eslint > babel-core > lodash:
+        patched: '2018-07-04T07:48:24.373Z'
+    - nwb > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T07:48:24.373Z'
+    - nwb > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T07:48:24.373Z'
+    - nwb > isparta-loader > isparta > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T07:48:24.373Z'
+    - nwb > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T07:48:24.373Z'
+    - nwb > babel-loader > babel-core > lodash:
+        patched: '2018-07-04T07:48:24.373Z'
