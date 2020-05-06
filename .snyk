@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - nwb > inquirer > lodash:
+        patched: '2020-05-06T08:08:56.487Z'
+    - nwb > karma-phantomjs-launcher > lodash:
+        patched: '2020-05-06T08:08:56.487Z'
+    - nwb > karma-mocha-reporter > karma > lodash:
+        patched: '2020-05-06T08:08:56.487Z'
+    - nwb > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-05-06T08:08:56.487Z'
+    - nwb > phantomjs-prebuilt > request > form-data > async > lodash:
+        patched: '2020-05-06T08:08:56.487Z'
+    - nwb > karma-mocha-reporter > karma > log4js > streamroller > lodash:
+        patched: '2020-05-06T08:08:56.487Z'
+    - nwb > karma-mocha-reporter > karma > log4js > streamroller > async > lodash:
+        patched: '2020-05-06T08:08:56.487Z'
